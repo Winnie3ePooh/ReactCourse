@@ -8,7 +8,6 @@ const layout = props => (
   <Aux>
     <div>Toolbar, SideDrawer, Backdrop</div>
     <MainContainer>{props.children}</MainContainer>
-    <Burger />
   </Aux>
 );
 
